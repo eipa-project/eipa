@@ -107,3 +107,6 @@ venv.bak/
 # Local Directories
 WD/
 .vscode/
+
+# Ignore temporary main script
+eipa.py
