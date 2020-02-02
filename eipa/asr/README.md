@@ -3,7 +3,6 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This module takes in the user's speech and transcribes it to text using Google Speech Recognition API provided by SpeechRecognition package.
 
 ## Requirements:
-+ Python 3
 + SpeechRecognition 3.8.1+  
 + PyAudio 0.2.11+  
 
