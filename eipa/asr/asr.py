@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Fri Nov  1 21:28:01 2019
+Created on Fri Nov  1 21:28:01 2019.
 
 @author: Reuel D'silva (@reuelrds)
 """
@@ -10,16 +10,15 @@ import speech_recognition as sr
 
 
 def listen():
-    """ Transcribes Audio to text
+    """Transcribes Audio to text.
 
     The Function takes in the user's speech using the microphone
     and transcribes it to text using Google Speech Recognition API
     provided by SpeechRecognition package.
 
     Returns:
-        transcript (str): The transcribed text
+        transcript: The transcribed text.
     """
-
     r = sr.Recognizer()
     with sr.Microphone() as source:
         r.adjust_for_ambient_noise(source)
