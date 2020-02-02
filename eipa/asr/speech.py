@@ -3,7 +3,7 @@
 """
 Created on Fri Nov  1 21:28:01 2019
 
-@author: reuelrds
+@author: Reuel D'silva (@reuelrds)
 """
 
 import speech_recognition as sr
