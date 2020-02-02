@@ -11,12 +11,14 @@ from gtts import gTTS
 import pygame
 
 
+# TODO: define a function to handle longer text sentences
+
+
+pygame.mixer.init()
+path = str(Path(__file__).parent / "outputs" / "output.mp3")
+
+
 def play(text):
-
-    pygame.mixer.init()
-
-    path = str(Path(__file__).parent / "outputs" / "output.mp3")
-    print(path)
 
     output = gTTS(text, lang="en-us", slow=False)
     output.save(path)
