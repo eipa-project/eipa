@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 """
 Created on Sat Nov  2 00:39:03 2019
 
@@ -19,6 +21,14 @@ path = str(Path(__file__).parent / "outputs" / "output.mp3")
 
 
 def play(text):
+    """Convert and play a text string.
+
+    Converts the input text to voice using Google Text-to-Speech API and
+    plays the output.
+
+    Args:
+        text: A String to be converted to Voice.
+    """
 
     output = gTTS(text, lang="en-us", slow=False)
     output.save(path)
