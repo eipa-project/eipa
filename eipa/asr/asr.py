@@ -19,17 +19,14 @@ def listen():
 
     try:
         transcript = r.recognize_google(audio)
-        print("Transcript: ", transcript)
         return transcript
 
     except sr.UnknownValueError:
-        print("Could not understand audio")
         return "Could not understand audio"
 
     except sr.RequestError as e:
-        print("""Could not request results from Google Speech
-                Recognition service; {0}""".format(e))
-        return "Could not get results"
+        return """"Could not request results from Google Speech
+            Recognition service; {0}""".format(e)
 
 
 if __name__ == "__main__":
