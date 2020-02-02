@@ -10,6 +10,16 @@ import speech_recognition as sr
 
 
 def listen():
+    """ Transcribes Audio to text
+
+    The Function takes in the user's speech using the microphone
+    and transcribes it to text using Google Speech Recognition API
+    provided by SpeechRecognition package.
+
+    Returns:
+        transcript (str): The transcribed text
+    """
+
     r = sr.Recognizer()
     with sr.Microphone() as source:
         r.adjust_for_ambient_noise(source)
