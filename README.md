@@ -5,7 +5,7 @@ Emotionally Intelligent Personal Assistant
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In this project we are trying to build a Personal Assistant which can correctly, detect a user’s query regardless of his accent, detect a user’s emotional state and respond accordingly. We are also trying to build a sub-module which can detect whether a person is in depression.
 
-## Authors 
+## Collaborators
 [Reuel D'silva *(@reuelrds)*](https://github.com/reuelrds)  
 [Aradhya Deolekar](@aradhya)  
 [Danish Khan]()
