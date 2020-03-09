@@ -7,5 +7,5 @@ Emotionally Intelligent Personal Assistant
 
 ## Collaborators
 [Reuel D'silva *(@reuelrds)*](https://github.com/reuelrds)  
-[Aradhya Deolekar](@aradhya)  
+[Aradhya Deolekar]()
 [Danish Khan]()
